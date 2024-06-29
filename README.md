@@ -36,5 +36,5 @@ A Python application that downloads audio from YouTube videos, transcribes it us
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/youtube-transcription.git
-   cd youtube-transcription
+   git clone https://github.com/jeswinbinu/YouTubeTranscriber.git
+   cd YouTubeTranscriber
