@@ -7,9 +7,7 @@ A Python application that downloads audio from YouTube videos, transcribes it us
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [File Structure](#file-structure)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -18,6 +16,8 @@ A Python application that downloads audio from YouTube videos, transcribes it us
 - **Transcription**: Convert audio to text using Whisper.
 - **Semantic Chunking**: Split the transcription into chunks based on duration.
 - **User Interface**: Simple web-based UI to input video URL and view the transcription.
+
+![Demo](demo.png)
 
 ## Installation
 
@@ -31,8 +31,8 @@ A Python application that downloads audio from YouTube videos, transcribes it us
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/yourusername/youtube-transcription.git
-    cd youtube-transcription
+    git clone https://github.com/jeswinbinu/YouTubeTranscriber.git
+    cd YouTubeTranscriber
     ```
 
 2. **Create and Activate Virtual Environment:**
@@ -73,7 +73,20 @@ A Python application that downloads audio from YouTube videos, transcribes it us
     - Click **Submit**.
     - View the transcribed text and chunks in the output area.
 
-### Example
+## Dependencies
 
+- [pytube](https://pytube.io/en/latest/): A lightweight, dependency-free Python library for downloading YouTube videos.
+- [pydub](https://pydub.com/): A Python library for manipulating audio files, including conversion and processing.
+- [whisper-timestamped](https://github.com/linto-ai/whisper-timestamped): A wrapper around OpenAI's Whisper ASR model that includes timestamped transcription.
+- [nltk](https://www.nltk.org/): The Natural Language Toolkit, a suite of libraries and programs for symbolic and statistical natural language processing.
+- [gradio](https://www.gradio.app/): A Python library that allows you to quickly create user interfaces for machine learning models.
+
+Install them using:
 ```bash
-python app.py
+pip install -r requirements.txt
+```
+## License
+
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
+
+
