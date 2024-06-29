@@ -1,12 +1,6 @@
 # YouTube Video Transcription and Chunking
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.7%2B-brightgreen.svg)](https://www.python.org/downloads/)
-[![Gradio](https://img.shields.io/badge/Gradio-3.0-brightgreen.svg)](https://www.gradio.app/)
-
 A Python application that downloads audio from YouTube videos, transcribes it using the Whisper model, and chunks the transcription into manageable segments. The app provides a user-friendly interface powered by Gradio.
-
-![Demo](demo.png)
 
 ## Table of Contents
 
@@ -30,11 +24,56 @@ A Python application that downloads audio from YouTube videos, transcribes it us
 ### Prerequisites
 
 - Python 3.7 or higher
-- [ffmpeg](https://ffmpeg.org/download.html) installed and available in the system PATH
+- `ffmpeg` installed and available in the system PATH
 
 ### Steps
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/jeswinbinu/YouTubeTranscriber.git
-   cd YouTubeTranscriber
+1. **Clone the Repository:**
+
+    ```bash
+    git clone https://github.com/yourusername/youtube-transcription.git
+    cd youtube-transcription
+    ```
+
+2. **Create and Activate Virtual Environment:**
+
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    ```
+
+3. **Install Dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Download NLTK Data:**
+
+    ```python
+    import nltk
+    nltk.download('punkt')
+    ```
+
+## Usage
+
+1. **Run the Application:**
+
+    ```bash
+    python app.py
+    ```
+
+2. **Access the Interface:**
+
+    Open your browser and navigate to [http://127.0.0.1:7860](http://127.0.0.1:7860).
+
+3. **Transcribe a Video:**
+
+    - Enter the YouTube video URL in the input field.
+    - Click **Submit**.
+    - View the transcribed text and chunks in the output area.
+
+### Example
+
+```bash
+python app.py
