@@ -1,4 +1,4 @@
-# YouTube Video Transcription and Chunking
+# YouTube Video Transcription 
 
 A Python application that downloads audio from YouTube videos, transcribes it using the Whisper model, and chunks the transcription into manageable segments. The app provides a user-friendly interface powered by Gradio.
 
