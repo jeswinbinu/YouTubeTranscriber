@@ -1,4 +1,4 @@
-# YouTube Video Transcription 
+# YouTube Video Transcription
 
 A Python application that downloads audio from YouTube videos, transcribes it using the Whisper model, and chunks the transcription into manageable segments. The app provides a user-friendly interface powered by Gradio.
 
@@ -8,6 +8,7 @@ A Python application that downloads audio from YouTube videos, transcribes it us
 - [Installation](#installation)
 - [Usage](#usage)
 - [Dependencies](#dependencies)
+- [Demo](#demo)
 - [License](#license)
 
 ## Features
@@ -18,6 +19,8 @@ A Python application that downloads audio from YouTube videos, transcribes it us
 - **User Interface**: Simple web-based UI to input video URL and view the transcription.
 
 ![Demo](demo.png)
+For a demonstration of the application, visit https://jeswinbinu-youtubetranscriber.hf.space.
+
 
 ## Installation
 
@@ -85,8 +88,7 @@ Install them using:
 ```bash
 pip install -r requirements.txt
 ```
+
 ## License
 
-This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
-
-
+This project is licensed under the MIT License - see the LICENSE file for details.
